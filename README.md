@@ -77,7 +77,7 @@ THEN the data should come from a cache and not read from file and returned as JS
 ___
 
 **SCENARIO: The client passes a refresh parameter**   
-GIVEN the call is made with a `refresh=true` header parameter   
+GIVEN the call is made with a `x-refresh:true` header parameter   
 AND the client has previously called the service successfully   
 WHEN the client sends the request   
 THEN the data should be flushed from the cache, retrieved from file and returned as JSON Payload in the response.
