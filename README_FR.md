@@ -55,31 +55,31 @@ ALORS L'utilisateur se voit rediriger vers la page d’accueil de l’applicatio
 
 ### Critères d'acceptation
 **SCÉNARIO: Le client appelle un service.**   
-LORSQUE le client appelle le service 
-QUAND le client envoie la requete
+LORSQUE le client appelle le service   
+QUAND le client envoie la requete   
 ALORS les données devraient être lu du fichier JSON et retourné au client en format JSON.
 ___
 
 **SCÉNARIO: Le client appelle un service une deuxième fois.**   
-LORSQUE le client appelle le service une seconde fois 
-QUAND le client envoie la requete
+LORSQUE le client appelle le service une seconde fois   
+QUAND le client envoie la requete   
 ALORS les données devraient provenir d’une « cache », ne pas être lu du fichier et retournées au client en format JSON.
 ___
 
 **SCÉNARIO: Le client utilise un paramètre « refresh »**   
-LORSQUE le client appelle le service avec le paramètre header  « refresh=true »
-QUAND le client envoie la requete
+LORSQUE le client appelle le service avec le paramètre header  « refresh=true »   
+QUAND le client envoie la requete   
 ALORS les données devraient être vidées de la cache, devraient être lu du fichier JSON et retournées au client en format JSON.
 ___
 
 **SCÉNARIO: Le client demande la liste de comptes (« listOfAccounts.json »)**   
-LORSQUE le client appelle le service pour avoir la liste de comptes 
-QUAND le client appelle le service 
+LORSQUE le client appelle le service pour avoir la liste de comptes   
+QUAND le client appelle le service   
 ALORS la réponse JSON retourné au client devrait contenir un champ « total » qui est la somme des champs « balance » de chaque compte. 
  
 **SCENARIO: Le client demande un compte spécifique (« listOfAccounts.json »)**   
-LORSQUE le client appelle le service avec un paramètre de requête « id={foo} »
-QUAND le client appelle le service 
+LORSQUE le client appelle le service avec un paramètre de requête « id={foo} »   
+QUAND le client appelle le service   
 ALORS la réponse JSON retourné au client devrait contenir seulement le compte qui possède un id {foo}.
  
  ## Bonus - Optionel
