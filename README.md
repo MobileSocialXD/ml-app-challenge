@@ -84,8 +84,8 @@ THEN the data should be flushed from the cache, retrieved from file and returned
 ___
 
 **SCENARIO: Client ask for the accounts list ("listOfAccounts.json")**   
-GIVEN the user is calling the service to retrieve the list of accounts   
-WHEN the user calls the service   
+GIVEN the client is calling the service to retrieve the list of accounts   
+WHEN the client sends the request 
 THEN the JSON response should contain a field named “total” that contains the sum of each account “balance”.
 ___
 
