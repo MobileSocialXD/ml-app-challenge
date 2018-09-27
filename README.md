@@ -8,7 +8,7 @@
 
 1. The objective is to create a runnable native mobile application in accordance to the acceptance criteria below.
 1. The data required for each view is contained in the `/data` folder.
-1. You are free to use any frameworks or plugins to assist you in the task. If you do so, please provide a brief reason why.
+1. You are free to use any frameworks or plugins to assist you in the task. If you do so, please provide a brief reason why in the comments.
 1. You are given creative freedom to design the UI as you deem fit to display the given data.
 1. Provide any instructions required to build and run your application.
 1. Instructions to share your code back with us will have been provided via email.
@@ -77,7 +77,7 @@ THEN the data should come from a cache and not read from file and returned as JS
 ___
 
 **SCENARIO: The client passes a refresh parameter**   
-GIVEN the call is made with a “refresh=true” header parameter   
+GIVEN the call is made with a `refresh=true` header parameter   
 AND the client has previously called the service successfully   
 WHEN the client sends the request   
 THEN the data should be flushed from the cache, retrieved from file and returned as JSON Payload in the response.
@@ -90,9 +90,9 @@ THEN the JSON response should contain a field named “total” that contains th
 ___
 
 **SCENARIO: Client ask for a specific account ("listOfAccounts.json")**   
-GIVEN the call is made with a “id={foo}” request parameter   
+GIVEN the call is made with a `id={foo}` request parameter   
 WHEN the client sends the request   
 THEN the JSON response should only contains the account that has the {foo} id.
 
- ## Bonus - Optional
+ ## Boni - Optional
  Deploy your services in a cloud provider and set-up the app to call the services
