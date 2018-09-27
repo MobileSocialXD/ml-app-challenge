@@ -92,7 +92,7 @@ ___
 **SCENARIO: Client ask for a specific account ("listOfAccounts.json")**   
 GIVEN the call is made with a `id={foo}` request parameter   
 WHEN the client sends the request   
-THEN the JSON response should only contains the account that has the {foo} id.
+THEN the JSON response should only contains the account that has the `{foo}` id.
 
  ## Bonus - Optional
  Deploy your services in a cloud provider and set-up the app to call the services
