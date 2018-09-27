@@ -6,7 +6,7 @@
 3. Vous êtes libre d'utiliser des frameworks ou des plugins pour vous aider dans cette tâche. Si vous le faites, veuillez expliquer pourquoi dans les commentaires.
 4. Vous disposez d'une liberté de création pour concevoir l'interface utilisateur à votre convenance pour afficher les données.
 5. Indiquez toutes les instructions nécessaires pour créer et exécuter votre application.
-6. Les instructions pour partager votre code avec nous auront été fournies par e-mail.
+6. Les instructions pour partager votre code avec nous auront été fournies par courriel.
 
 ### Critères d'acceptation
 **SCÉNARIO: L'utilisateur lance votre application pour la première fois.**   
@@ -51,7 +51,7 @@ ALORS L'utilisateur se voit rediriger vers la page d’accueil de l’applicatio
 1. Les données requises pour chaque service sont contenues dans le dossier `/data`.
 1. Vous êtes libre d'utiliser des « frameworks » ou des plugins pour vous aider dans cette tâche. Si vous le faites, veuillez expliquer pourquoi dans les commentaires.
 1. Indiquez toutes les instructions nécessaires pour créer et exécuter votre application.
-1. Les instructions pour partager votre code avec nous auront été fournies par e-mail.
+1. Les instructions pour partager votre code avec nous auront été fournies par courriel.
 
 ### Critères d'acceptation
 **SCÉNARIO: Le client appelle un service.**   
