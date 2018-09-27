@@ -2,7 +2,7 @@
 ## Défi d'application
 ### Instructions
 1. L'objectif est de créer une application mobile native exécutable répondant aux critères d'acceptation ci-dessous.
-2. Les données requises pour chaque vue sont contenues dans le dossier /data.
+2. Les données requises pour chaque vue sont contenues dans le dossier `/data`.
 3. Vous êtes libre d'utiliser des frameworks ou des plugins pour vous aider dans cette tâche. Si vous le faites, veuillez expliquer pourquoi.
 4. Vous disposez d'une liberté de création pour concevoir l'interface utilisateur à votre convenance pour afficher les données.
 5. Indiquez toutes les instructions nécessaires pour créer et exécuter votre application.
@@ -48,7 +48,7 @@ ALORS L'utilisateur se voit rediriger vers la page d’accueil de l’applicatio
 ## Défi de service
 ### Instructions
 1. L'objectif est de créer des services REST répondant aux critères d'acceptation ci-dessous.
-1. Les données requises pour chaque service sont contenues dans le dossier /data.
+1. Les données requises pour chaque service sont contenues dans le dossier `/data`.
 1. Vous êtes libre d'utiliser des « frameworks » ou des plugins pour vous aider dans cette tâche. Si vous le faites, veuillez expliquer pourquoi dans les commentaires.
 1. Indiquez toutes les instructions nécessaires pour créer et exécuter votre application.
 1. Les instructions pour partager votre code avec nous auront été fournies par e-mail.
@@ -56,7 +56,7 @@ ALORS L'utilisateur se voit rediriger vers la page d’accueil de l’applicatio
 ### Critères d'acceptation
 **SCÉNARIO: Le client appelle un service.**   
 LORSQUE le client appelle le service   
-QUAND le client envoie la requete   
+QUAND le client envoie la requête   
 ALORS les données devraient être lu du fichier JSON et retourné au client en format JSON.
 ___
 
