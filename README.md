@@ -6,7 +6,7 @@
 
 ### Intructions 
 
-1. The objective is to create a runnable native mobile application to the below acceptance criteria.
+1. The objective is to create a runnable native mobile application in accordance to the acceptance criteria below.
 1. The data required for each view is contained in the `/data` folder.
 1. You are free to use any frameworks or plugins to assist you in the task. If you do so, please provide a brief reason why.
 1. You are given creative freedom to design the UI as you deem fit to display the given data.
@@ -55,9 +55,9 @@ THEN the user is presented with a landing page with a button labeled "Open".
 
 ### Instructions
 
-1. The objective is to create REST services that wraps the JSON files and return them to the client to the below acceptance criteria.
+1. The objective is to create REST services that wraps the JSON files and return them to the client according to the acceptance criteria below.
 1. The data required for each service is contained in the /data folder.
-1. You are free to use any frameworks or plugins to assist you in the task. If you do so, please provide a brief reason why.
+1. You are free to use any frameworks or plugins to assist you in the task. If you do so, please provide a brief reason why in the comments.
 1. Provide any instructions required to build and run your services.
 1. Instructions to share your code back with us will have been provided via email.
 
@@ -77,19 +77,19 @@ THEN the data should come from a cache and not read from file and returned as JS
 ___
 
 **SCENARIO: The client passes a refresh parameter**   
-GIVEN the call is made with a “refresh=true” request parameter   
+GIVEN the call is made with a “refresh=true” header parameter   
 AND the client has previously called the service successfully   
 WHEN the client sends the request   
-THEN the data should be flushed from the cache and retrieve from the file instead and returned as JSON Payload in the response.
+THEN the data should be flushed from the cache, retrieved from file and returned as JSON Payload in the response.
 ___
 
-**SCENARIO: Client ask for the accounts list (« listOfAccounts.json »)**   
+**SCENARIO: Client ask for the accounts list ("listOfAccounts.json")**   
 GIVEN the user is calling the service to retrieve the list of accounts   
 WHEN the user calls the service   
 THEN the JSON response should contain a field named “total” that contains the sum of each account “balance”.
 ___
 
-**SCENARIO: Client ask for a specific account (« listOfAccounts.json »)**   
+**SCENARIO: Client ask for a specific account ("listOfAccounts.json")**   
 GIVEN the call is made with a “id={foo}” request parameter   
 WHEN the client sends the request   
-THEN the JSON response should only contains the selected account.
+THEN the JSON response should only contains the account that has the {foo} id.
