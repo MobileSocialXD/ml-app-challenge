@@ -46,7 +46,7 @@ QUAND l'utilisateur appuie sur le bouton « Quitter »
 ALORS L'utilisateur se voit rediriger vers la page d’accueil de l’application avec un bouton intitulé « Ouvrir ». 
 
 ## Défi de service
-###Instructions
+### Instructions
 1. L'objectif est de créer des services REST répondant aux critères d'acceptation ci-dessous.
 1. Les données requises pour chaque service sont contenues dans le dossier /data.
 1. Vous êtes libre d'utiliser des « frameworks » ou des plugins pour vous aider dans cette tâche. Si vous le faites, veuillez expliquer pourquoi dans les commentaires.
