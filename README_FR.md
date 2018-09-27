@@ -82,5 +82,5 @@ LORSQUE le client appelle le service avec un paramètre de requête « id={foo} 
 QUAND le client envoie la requête  
 ALORS la réponse JSON retourné au client devrait contenir seulement le compte qui possède un id {foo}.
  
- ## Bonus - Optionel
+ ## Bonus - Optionnel
  Déployer vos services sur un « cloud provider » et configurer votre application pour appeler vos services.
