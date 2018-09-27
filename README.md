@@ -95,4 +95,4 @@ WHEN the client sends the request
 THEN the JSON response should only contains the account that has the `{foo}` id.
 
  ## Bonus - Optional
- Deploy your services in a cloud provider and set-up the app to call the services
+ Deploy your services in a cloud provider and set-up the app to call the services.
