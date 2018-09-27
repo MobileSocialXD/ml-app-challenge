@@ -63,33 +63,33 @@ THEN the user is presented with a landing page with a button labeled "Open".
 
 ### Acceptance Criteria
 
-**SCENARIO: The client calls the service
+**SCENARIO: The client calls the service**
 GIVEN the client is calling the service 
 WHEN the client sends the request
 THEN the data should be read from the JSON file and returned as JSON Payload in the response.
 ___
  
-**SCENARIO: The client calls the service twice
+**SCENARIO: The client calls the service twice**
 GIVEN the client is calling the service for the second time
 AND the client has previously called the service successfully  
 WHEN the client sends the request
 THEN the data should come from a cache and not read from file and returned as JSON Payload in the response.
 ___
 
-**SCENARIO: The client passes a refresh parameter
+**SCENARIO: The client passes a refresh parameter**
 GIVEN the call is made with a “refresh=true” request parameter
 AND the client has previously called the service successfully  
 WHEN the client sends the request
 THEN the data should be flushed from the cache and retrieve from the file instead and returned as JSON Payload in the response.
 ___
 
-**SCENARIO: Client ask for the accounts list (« listOfAccounts.json »)
+**SCENARIO: Client ask for the accounts list (« listOfAccounts.json »)**
 GIVEN the user is calling the service to retrieve the list of accounts 
 WHEN the user calls the service
 THEN the JSON response should contain a field named “total” that contains the sum of each account “balance”.
 ___
 
-**SCENARIO: Client ask for a specific account (« listOfAccounts.json »)
+**SCENARIO: Client ask for a specific account (« listOfAccounts.json »)**
 GIVEN the call is made with a “id={foo}” request parameter
 WHEN the client sends the request
 THEN the JSON response should only contains the selected account and returned as JSON Payload in the response.
