@@ -67,7 +67,7 @@ ALORS les données devraient provenir d’une « cache », ne pas être lu du fi
 ___
 
 **SCÉNARIO: Le client utilise un paramètre « refresh »**   
-LORSQUE le client appelle le service avec le paramètre « header »  suivant: `refresh=true`   
+LORSQUE le client appelle le service avec le paramètre « header »  suivant: `x-refresh:true`   
 QUAND le client envoie la requête   
 ALORS les données devraient être vidées de la cache, devraient être lu du fichier JSON et retournées au client en format JSON.
 ___
