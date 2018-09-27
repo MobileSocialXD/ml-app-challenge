@@ -92,4 +92,4 @@ ___
 **SCENARIO: Client ask for a specific account (« listOfAccounts.json »)**   
 GIVEN the call is made with a “id={foo}” request parameter   
 WHEN the client sends the request   
-THEN the JSON response should only contains the selected account and returned as JSON Payload in the response.
+THEN the JSON response should only contains the selected account.
