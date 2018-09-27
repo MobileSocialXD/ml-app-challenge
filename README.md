@@ -56,7 +56,7 @@ THEN the user is presented with a landing page with a button labeled "Open".
 ### Instructions
 
 1. The objective is to create REST services that wraps the JSON files and return them to the client according to the acceptance criteria below.
-1. The data required for each service is contained in the /data folder.
+1. The data required for each service is contained in the `/data` folder.
 1. You are free to use any frameworks or plugins to assist you in the task. If you do so, please provide a brief reason why in the comments.
 1. Provide any instructions required to build and run your services.
 1. Instructions to share your code back with us will have been provided via email.
