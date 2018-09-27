@@ -80,7 +80,7 @@ ALORS la réponse JSON retourné au client devrait contenir un champ « total »
 **SCENARIO: Le client demande un compte spécifique (« listOfAccounts.json »)**   
 LORSQUE le client appelle le service avec un paramètre de requête `id={foo}`   
 QUAND le client envoie la requête  
-ALORS la réponse JSON retourné au client devrait contenir seulement le compte qui possède un id {foo}.
+ALORS la réponse JSON retourné au client devrait contenir seulement le compte qui possède un id `{foo}`.
  
  ## Boni - Optionnel
  Déployer vos services sur un « cloud provider » et configurer votre application pour appeler vos services.
