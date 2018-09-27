@@ -3,7 +3,7 @@
 ### Instructions
 1. L'objectif est de créer une application mobile native exécutable répondant aux critères d'acceptation ci-dessous.
 2. Les données requises pour chaque vue sont contenues dans le dossier `/data`.
-3. Vous êtes libre d'utiliser des frameworks ou des plugins pour vous aider dans cette tâche. Si vous le faites, veuillez expliquer pourquoi.
+3. Vous êtes libre d'utiliser des frameworks ou des plugins pour vous aider dans cette tâche. Si vous le faites, veuillez expliquer pourquoi dans les commentaires.
 4. Vous disposez d'une liberté de création pour concevoir l'interface utilisateur à votre convenance pour afficher les données.
 5. Indiquez toutes les instructions nécessaires pour créer et exécuter votre application.
 6. Les instructions pour partager votre code avec nous auront été fournies par e-mail.
@@ -67,7 +67,7 @@ ALORS les données devraient provenir d’une « cache », ne pas être lu du fi
 ___
 
 **SCÉNARIO: Le client utilise un paramètre « refresh »**   
-LORSQUE le client appelle le service avec le paramètre « header »  suivant: « refresh=true »   
+LORSQUE le client appelle le service avec le paramètre « header »  suivant: `refresh=true`   
 QUAND le client envoie la requête   
 ALORS les données devraient être vidées de la cache, devraient être lu du fichier JSON et retournées au client en format JSON.
 ___
@@ -78,7 +78,7 @@ QUAND le client envoie la requête
 ALORS la réponse JSON retourné au client devrait contenir un champ « total » qui est la somme des champs « balance » de chaque compte. 
  
 **SCENARIO: Le client demande un compte spécifique (« listOfAccounts.json »)**   
-LORSQUE le client appelle le service avec un paramètre de requête « id={foo} »   
+LORSQUE le client appelle le service avec un paramètre de requête `id={foo}`   
 QUAND le client envoie la requête  
 ALORS la réponse JSON retourné au client devrait contenir seulement le compte qui possède un id {foo}.
  
