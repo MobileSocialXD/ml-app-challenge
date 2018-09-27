@@ -76,7 +76,8 @@ ___
 LORSQUE le client appelle le service pour avoir la liste de comptes   
 QUAND le client envoie la requête    
 ALORS la réponse JSON retourné au client devrait contenir un champ « total » qui est la somme des champs « balance » de chaque compte. 
- 
+___
+
 **SCENARIO: Le client demande un compte spécifique (« listOfAccounts.json »)**   
 LORSQUE le client appelle le service avec un paramètre de requête `id={foo}`   
 QUAND le client envoie la requête  
