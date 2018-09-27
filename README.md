@@ -1,8 +1,8 @@
 # [__**Version Française**__](README_FR.md)
 
-## Coding challenge for prospective candidates
+### Coding challenge for prospective candidates
 
-#### Application Challenge
+## Application Challenge
 
 ### Intructions 
 
@@ -51,7 +51,7 @@ GIVEN the user is viewing a list of accounts
 WHEN the user taps the "Quit" button    
 THEN the user is presented with a landing page with a button labeled "Open".
 
-#### Service Challenge
+## Service Challenge
 
 ### Instructions
 
